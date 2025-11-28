@@ -113,14 +113,23 @@ python school_app1.py
 
 결과 출력 : GUI 결과창에 학교별 통폐합 가능 여부와 사유를 표시
 
-#프로그램 실행 2 (ARIMA 분석)
+# 프로그램 실행 2 (ARIMA 분석)
 
 <img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/327aa578-3366-4efc-945c-96823dd8d15c" />  
 
 PACF/ACF 분석과 Auto-ARIMA function을 통해 최적의 파라미터를 탐색하고,  
 평창, 양양, 홍천, 횡성군 중 가장 청년 인구 (8~19세)의 감소세가 큰 도시를 확인합니다.  
 
+## 입력 데이터 형식 (예시)
+<img width="500" height="250" alt="image" src="https://github.com/user-attachments/assets/acafaffa-3a17-455e-acd5-af34d3028a6f" />  
 
+행 : 지역이름  
+열 : 연도  
+  
+## 알고리즘 개요
+
+PACF/ACF 함수를 통해 주어진 시계열 인구 데이터를 예측하고 그래프로 시각화하여 적합한 모델을 추천합니다.  
+이후 auto-arima 를 통해 얻은 최적의 파라미터를 ARIMA 예측 모델에 입력하여 각 지역별 인구 예측 결과를 출력합니다.  
 
 
 ## 향후 개선 방향
