@@ -72,7 +72,7 @@ pip install -r requirements.txt
 requirements.txt가 없다면, 코드에서 사용하는 라이브러리를 보고
 예: pandas, openpyxl, tkinter(기본 포함) 등을 수동 설치하면 됩니다.
 
-프로그램 실행
+# 프로그램 실행 1
 
 python school_app1.py
 실행 후 나타나는 GUI에서:
@@ -112,6 +112,16 @@ python school_app1.py
 통폐합 가능성 판단 : 통합 시 통학거리 기준을 초과하는지 여부 평가, 기준을 만족하지 못하는 학교에 대해 통폐합 불가 사유 함께 출력
 
 결과 출력 : GUI 결과창에 학교별 통폐합 가능 여부와 사유를 표시
+
+#프로그램 실행 2 (ARIMA 분석)
+
+<img width="500" height="300" alt="image" src="https://github.com/user-attachments/assets/327aa578-3366-4efc-945c-96823dd8d15c" />  
+
+PACF/ACF 분석과 Auto-ARIMA function을 통해 최적의 파라미터를 탐색하고,  
+평창, 양양, 홍천, 횡성군 중 가장 청년 인구 (8~19세)의 감소세가 큰 도시를 확인합니다.  
+
+
+
 
 ## 향후 개선 방향
 ARIMA 등 시계열 모델을 활용한 미래 학생 수 예측 향후 몇 년을 내다본 중장기 통폐합 시나리오 분석
